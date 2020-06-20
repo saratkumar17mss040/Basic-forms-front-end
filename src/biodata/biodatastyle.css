@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 70px;
+  font-size: 35px;
+  /* border-bottom: dashed;
+  border-color: grey;
+  border-width: 5px; */
+}
+
+/* hr{
+  border-bottom: dashed;
+  border-color: grey;
+  border-width: 2px; 
+} */
+
+hr {
+  border:none;
+  border-top:1px dashed rgb(180, 180, 180);
+  color:#fff;
+  background-color:#fff;
+  height:1px;
+  width:100%;
+  border-width: 4px;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header header header' 
+    'left left left left right right' 
+} 
+
+.left,
+.right {
+  padding: 10px;
+  /* height: 600px;  */
+  /* Should be removed. Only for demonstration */
+}
+
+.left {
+  grid-area: left;
+  display: grid;
+}
+
+.right {
+  grid-area: right;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .grid-container  {
+    grid-template-areas: 
+      'header header header header header header' 
+      'left left left left left left' 
+      'right right right right right right' 
+  }
+}
+
+.header {
+    position: relative;
+}
+
+#usercontent {
+    position: relative;
+    margin-left: 350px;
+}
+
+li {
+    font-size: 15px;
+}
+
+li{
+    display: inline;
+    font-weight: bold;
+}
+
+#name {
+    position: absolute;
+    margin-left: -190px;
+    margin-top: -90px;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#occupation {
+    margin-left: -190px;
+    margin-bottom: 65px;
+}
+

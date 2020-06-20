@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form | 📷</title>
+    <link rel="stylesheet" href="registartionstyle.css"">
+  </head>
+  <body>
+    <main id="main-container">
+      <div id="left-container">
+        <p id="photo-text">Photography</p>
+        <img
+          id="ham-burger"
+          src="/resources/hamburger.png"
+          alt="hamburger-icon"
+          width="20px"
+          height="20px"
+        />
+        <p class="sub-text-left">CLICK FOR YOUR SHOOT</p>
+        <br />
+        <p class="photo-text-bigger-left">Photography</p>
+        <br />
+        <p class="journey">JOURNEY EVERYWHERE</p>
+      </div>
+      <div id="right-container">
+        <p class="main-text">Registration</p>
+        <br />
+        <p class="sub-text-right">CLICK FOR YOUR SHOOT</p>
+        <br />
+        <label for="name">Name</label>
+        <input type="text" placeholder="Tanvir Hasan" /><br />
+        <label for="email">Email</label>
+        <input type="email" placeholder="ftanvirhasan@gmail.com" /><br />
+        <label for="gender">Gender</label>
+        <input name="gender" id="gender" type="radio" checked />Male
+        <input name="gender" type="radio" id="gender-female" />Female<br />
+        <label for="dateofbirth">Date of Birth</label>
+        <input type="date" id="date-input" /><br />
+        <label for="city">City</label>
+        <input id="city-input" type="text" placeholder="Dhaka" /><br />
+        <label for="country">Country</label>
+        <input id="country-input" type="text" placeholder="Bangladesh" /><br />
+        <label for="subscription">Subscription</label>
+        <span id="subscriptions">
+          <span>Bronze</span>
+          <span class="silver-green">Silver</span>
+          <span>Gold</span><br />
+        </span>
+        <button id="confirm-btn" type="button">CANCEL</button>
+        <button id="cancel-btn" type="button">CONFIRM</button>
+      </div>
+    </main>
+  </body>
+</html>

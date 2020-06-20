@@ -1,0 +1,168 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100%;
+}
+
+#left-container {
+  background-image: url('/resources/camera.jpg');
+  width: 449px;
+  position: relative;
+  height: 608px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+#right-container {
+  background-color: #ffffff;
+  width: 550px;
+  height: 608px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+#ham-burger {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 15px;
+}
+
+#photo-text {
+  position: absolute;
+  width: 200px;
+  margin-left: 25px;
+  font-size: 22px;
+  color: #ffffff;
+  margin-top: 15px;
+}
+
+#right-container {
+  position: relative;
+}
+.main-text {
+  color: rgb(29, 190, 29);
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+.sub-text-right {
+  color: grey;
+  font-size: 13px;
+  text-align: center;
+}
+
+.sub-text-left {
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+  margin-top: 450px;
+}
+
+.photo-text-bigger-left {
+  text-align: center;
+  color: #ffffff;
+  font-size: 35px;
+}
+
+.journey {
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+}
+
+label {
+  font-weight: bolder;
+  columns: #000000;
+  margin-left: 35px;
+  margin-bottom: 25px;
+}
+
+input {
+  margin-left: 100px;
+  margin-bottom: 25px;
+  color: grey;
+  padding: 10px;
+  width: 255px;
+  background-color: rgb(235, 235, 235);
+  border: none;
+  border-radius: 5px;
+  height: 35px;
+}
+
+#date-input {
+  margin-left: 45px;
+}
+
+#city-input {
+  margin-left: 110px;
+  width: 258px;
+}
+
+#country-input {
+  /* margin-right: -55px;
+  margin-left: -5px; */
+  margin-left: 80px;
+  width: 258px;
+}
+span {
+  font-weight: bolder;
+  padding: 25px;
+}
+
+.silver-green {
+  color: rgb(29, 190, 29);
+  font-weight: bolder;
+}
+
+button {
+  margin-top: 55px;
+  padding: 12px;
+  margin-left: 175px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-radius: 6px;
+}
+
+#confirm-btn {
+  color: #ffffff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
+#cancel-btn {
+  color: #ffffff;
+  background-color: rgba(46, 173, 21, 0.863);
+  border-color: rgba(46, 173, 21, 0.863);
+  margin-left: 15px;
+}
+
+#gender {
+  margin-left: 85px;
+  width: 35px;
+  padding: none;
+  height: 17px;
+}
+
+#gender-female {
+  margin-left: 15px;
+  width: 35px;
+  padding: none;
+  height: 17px;
+}
