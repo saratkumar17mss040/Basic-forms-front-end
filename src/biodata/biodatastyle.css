@@ -10,6 +10,7 @@
   background-color: #f1f1f1;
   padding: 70px;
   font-size: 35px;
+  position: absolute;
   /* border-bottom: dashed;
   border-color: grey;
   border-width: 5px; */
@@ -41,7 +42,7 @@ hr {
 .right {
   padding: 10px;
   /* height: 600px;  */
-  /* Should be removed. Only for demonstration */
+  /* Should be removed. Only for demon*/
 }
 
 .left {
@@ -90,7 +91,23 @@ li{
 }
 
 #occupation {
-    margin-left: -190px;
-    margin-bottom: 65px;
+    position: absolute;
+     margin-left: -190px;
+    /* margin-bottom: 25px;  */
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+    margin-top: -45px;
 }
 
+#first-row{
+  display: inline;
+  position: absolute;
+  text-align: left;
+}
+
+
+#user {
+  position: absolute;
+  margin-top: -25px;
+}
