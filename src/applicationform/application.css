@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: lightgray;
+}
+
+html,
+body {
+  height: 100%;
+  background: #ffffff;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  margin-top: 290px;
+}
+
+div {
+  border: 2px solid #000000;
+  border-bottom: none;
+  position: absolute;
+  height: 100vh;
+}
+
+#seminar-text {
+  position: absolute;
+  color: #ffffff;
+  font-weight: bolder;
+  font-stretch: expanded;
+  font-size: 1.7em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#photography-text {
+  position: absolute;
+  color: rgb(241, 238, 32);
+  font-size: 2.2em;
+  font-stretch: ultra-expanded;
+  top: 52%;
+  left: 42%;
+  font-weight: bolder;
+}
+
+#author-text {
+  position: absolute;
+  font-size: 1.7em;
+  color: #ffffff;
+  text-transform: capitalize;
+  top: 58%;
+  left: 59%;
+}
+
+#info-text {
+  text-align: center;
+  color: #000000;
+  font-weight: 590;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#application-text {
+  text-align: center;
+  font-weight: bold;
+  color: #000000;
+  font-size: 1.2em;
+  padding: 25px;
+  padding-bottom: 45px;
+  text-transform: uppercase;
+}
+
+.requirement-fields {
+  position: absolute;
+  /* color: rgba(22, 21, 21, 0.658); */
+  text-transform: uppercase;
+  font-size: 1.2em;
+  left: 5%;
+  padding: 25px;
+  font-weight: bold;
+}
+
+.occupation {
+  margin-top: 40px;
+}
+
+.institution {
+  margin-top: 80px;
+}
+
+.institution-line2 {
+  margin-top: 120px;
+}
+
+.address {
+  margin-top: 160px;
+}
+
+.address-line2 {
+  margin-top: 200px;
+}
+
+.telephoneno {
+  margin-top: 240px;
+}
+
+.emailid {
+  margin-top: 280px;
+}
+
+.reason {
+  margin-top: 320px;
+}
+
+.reasonline1 {
+  margin-top: 360px;
+}
+
+.reasonline2 {
+  margin-top: 400px;
+}
+
+.reasonline3 {
+  margin-top: 440px;
+}
+
+.reasonline4 {
+  margin-top: 480px;
+}
+.reasonline5 {
+  margin-top: 520px;
+}
+
+.border-left {
+  border: 1px solid #000000;
+  margin-left: -2px;
+  height: 100vh;
+}
+
+.border-right {
+  position: absolute;
+  border: 1px solid #000000;
+  margin-left: 940px;
+  height: 100vh;
+}
+
+img {
+
+}
