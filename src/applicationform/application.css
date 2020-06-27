@@ -140,16 +140,22 @@ div {
 .border-left {
   border: 1px solid #000000;
   margin-left: -2px;
-  height: 100vh;
+  height: 1000px;
 }
 
 .border-right {
   position: absolute;
   border: 1px solid #000000;
   margin-left: 940px;
-  height: 100vh;
+  height: 1000px;
 }
 
-img {
+#goethe_img {
+  margin-left: 150px;
+  margin-top: 750px;
+}
 
+#fica_img {
+  margin-left: 350px;
+  margin-top: 750px;
 }
