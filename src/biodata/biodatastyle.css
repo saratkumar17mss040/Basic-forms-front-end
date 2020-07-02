@@ -77,6 +77,7 @@ strong
     width: 100px;
     height: 40px;
     margin-left: 20px;
+    border-radius: 5px;
 }
 #hireme-button:hover
 {
@@ -144,20 +145,22 @@ strong
   }
   #port-button
   {
-      padding: 4px;
+      padding: 8px;
       color: white;
       background-color: rgb(6, 218, 147);
-      border: 1px solid black;
+      border: 1px solid rgb(6, 218, 147);
       margin: 10px;
       margin-left: 2px;
+      border-radius: 3px;
   }
   #resume-button
   {
-    padding: 4px;
+    padding: 8px;
     color: white;
     background-color: black;
     border: 1px solid black;
     margin: 5px;
+    border-radius: 3px;
   }
   #port-button:hover, #resume-button:hover
   {
@@ -195,6 +198,7 @@ strong
      margin: 20px;
      height: 80px;
      border: 2px solid rgb(6, 218, 147);
+     border-radius: 5px;
        
  }
  .skills:hover
