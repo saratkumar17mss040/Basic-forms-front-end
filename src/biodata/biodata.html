@@ -1,135 +1,115 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="biodatastyle.css" />
-    <title>Bio-data | 👨‍💻</title>
-  </head>
-  <body>
-    <div class="grid-container">
-      <div class="header">
-        <img
-          id="user"
-          src="/resources/user.png"
-          alt="user-icon"
-          width="82px"
-          height="82px"
-        />
-        <div id="usercontent">
-          <p id="name">Kaushik Panchal</p>
-          <p id="occupation">U S E R &nbsp;  I N T E R F A C E &nbsp; D E S I G N E R</p>
-          <div id="fisrt-row">
-            <img
-              src="/resources/contact.png"
-              alt="contact-icon"
-              width="16px"
-              height="16px"
-            />
-            <li>+917021779864</li>
-            <img
-              src="/resources/mail.png"
-              alt="contact-icon"
-              width="16px"
-              height="16px"
-            />
-            <li>Kaushik@Kaushikpanchal.com</li>
-            <img
-              src="/resources/location.png"
-              alt="contact-icon"
-              width="16px"
-              height="16px"
-            />
-            <li>Mumbai/Pune</li>
-            <br />
-          </div>
-          <div id="second-row">
-            <img
-              src="/resources/globe.png"
-              alt="contact-icon"
-              width="16px"
-              height="16px"
-            />
-            <li>dribble.com/kaushikpanchal</li>
-            <img
-              src="/resources/contact.png"
-              alt="contact-icon"
-              width="16px"
-              height="16px"
-            />
-            <li>linkedin.com/in/kaushik-panchal-7aa2bb18/</li>
-          </div>
-        </div>
-        <hr id="line" />
-      </div>
-      <div class="left" style="background-color: #aaa;">
-        <p id="left-heading">EXPERIENCE</p>
-        <div>
-          <img
-            src="/resources/mobme.jpg"
-            alt="mobme-icon"
-            width="84px"
-            height="84px"
-          />
-          <p id="timeline1">NOV 2018 - PRESENT</p>
-          <p id="occupation1">Senior UI Designer</p>
-          <p id="company1">Mobme Wireless Solutions Limited</p>
-        </div>
-        <div>
-          <img
-            src="/resources/jio.png"
-            alt="mobme-icon"
-            width="84px"
-            height="84px"
-          />
-          <p id="timeline2">AUG 2018 - JUN 2018</p>
-          <p id="occupation2">UI/UX Designer</p>
-          <p id="company2">Jio</p>
-        </div>
-        <div>
-          <img
-            src="/resources/zinc.png"
-            alt="mobme-icon"
-            width="84px"
-            height="84px"
-          />
-          <p id="timeline3">NOV 2014 - AUG 2015</p>
-          <p id="occupation3">UI Designer</p>
-          <p id="company3">Dezine Zync Studios LLP</p>
-        </div>
-        <div>
-          <img
-            src="/resources/bookmyshow.png"
-            alt="mobme-icon"
-            width="84px"
-            height="84px"
-          />
-          <p id="timeline4">AUG 2013 - OCT 2014</p>
-          <p id="occupation4">UI/UX Designer</p>
-          <p id="company4">BookMyShow (Bigtree Entertainment Pvt Lth)</p>
-        </div>
-      </div>
-      <div class="right" style="background-color: #ccc;">
-        <p id="right-heading">SKILLS</p>
-        <ul>
-          <li>User Interface</li>
-          <li>User Experience Design</li>
-          <li>Interaction Design</li>
-          <li>User Centered Design</li>
-          <li>Information Architecture</li>
-          <li>Wireframing</li>
-          <li>Rapid Prototyping</li>
-          <li>Task Analysis</li>
-          <li>Usablility Study</li>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-        <p id="tools">TOOLS</p>
-        <ul>
-          <li>Figma</li>
-          <li>Photoshop</li>
-        </ul>
-      </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BioData Form</title>
+    <link rel="stylesheet" href="biodatastyle.css">
+</head>
+<body>
+    <div class="main-container">
+        <div id="main">
+            <button class="openbtn" onclick="openNav()">☰</button>
+        <nav id="navbar">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <h4 id="navbar-name">Simon Doe</h4>
+            <img src="/resources/man.svg" alt="man-image" id="image">
+            <p id="intro">Hi,my name is Simon Doe and i'm a senoir software engineer.Welcome to my personal website</p>
+            <img src="/resources/twitter.svg" alt="twitter-logo" id="twitter-logo">
+            <img src="/resources/linkedin.svg" alt="linkedin-logo" id="twitter-logo">
+            <img src="/resources/github.svg" alt="github-logo" id="github-logo">
+            <br>
+            <div id="nav-content">
+                <img src="/resources/user.png" alt="Aboutme-icon" id="aboutme-icon"><strong id="me">About Me</strong> <br>
+                <img src="/resources/work.svg" alt="portfolio-icon" id="portfolio-icon"><strong>Services and Pricing</strong> <br>
+                <img src="/resources/blog.svg" alt="blog-icon"id="blog-icon"><strong>Blog</strong>  <br>
+                <img src="/resources/technical-support.svg" alt="Contact-icon"id="contact-icon"><strong>Contact</strong>  <br>
+                <img src="/resources/settings.svg" alt="more-icon"id="more-icon"><strong>More</strong>  <br>
+                <br><br>
+                <button type="submit" id="hireme-button"><img src="/resources/send.svg" alt="send-icon" id="navbar-button"> Hire Me</button>
+            </div>
+        </nav>
     </div>
-  </body>
+    <div id="main-container">
+        <div class="container" id="container">
+            <h1>Simon Doe</h1>
+            <span>Senior Software Engineer</span> <br> <br>
+            <p>I'm a Software engineer specialized in frontend and backend development for complex scalable web apps. I write about software development on <a href="">my blog</a>. Want to know how i may help your project? Check out my project <a href="">portfolio</a> and <a href="">online review</a>.</p><br>
+            <button type="submit" id="port-button">View Portfolio</button>
+            <button type="submit" id="resume-button">View Resume</button>
+        <img src="/resources/man.svg" alt="user-image" id="main-container-image">
+        </div>
+        <div id="odd-at-grid">
+            <h1 id="green-line">|</h1><h2 id="what-i-do">What I do</h2>
+            <p id="content">I have morethan 10 years experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies wise. Want to find out more about my experience? Check out my <a href="">online resume </a>and <a href="">project portfolio</a> .</p>
+            
+        </div>
+    </div><br><br><br><br><br>
+    <div id="skill-set">
+        <span>
+           <button type="submit"class="skills"id="1"><img src="/resources/javascript.svg" alt="js-logo"id="js-logo"></button>
+           <button type="submit"class="skills"id="2"><img src="/resources/angular-icon-1.svg" alt="angular-logo"id="angular-logo"><img src="/resources/react-2.svg" alt="React-logo"id="React-logo"><img src="/resources/vue-js-1.svg" alt="vue-logo"id="vue-logo"></button>
+           <button type="submit"class="skills"id="3"><img src="/resources/nodejs-icon.svg" alt="node-logo"id="node-logo"></button>
+           <button type="submit"class="skills"id="4"><img src="/resources/python.svg" alt="python-logo"id="python-logo"></button> 
+           <button type="submit"class="skills"id="5"><img src="/resources/php.svg" alt="php-logo" id="php-logo"></button>
+           <button type="submit"class="skills"id="6"><img src="/resources/npm.svg" alt="npm-logo"id="npm-logo"> <img src="/resources/gulp.svg" alt="gulp-logo"id="gulp-logo"><img src="/resources/grunt.svg" alt="grunt-logo"id="grunt-logo"></button>
+           <button type="submit"class="skills"id="7"><img src="/resources/html.svg" alt="html-logo"id="html-logo"><img src="/resources/css.svg" alt="css-logo"id="css-logo"></button>
+           <button type="submit"class="skills"id="8"><img src="/resources/sass-1.svg" alt="saas-logo"id="saas-logo"><img src="/resources/less.svg" alt="less-logo"id="less-logo"></button>
+           </span>
+    </div>
+    <script>
+        function openNav() 
+        {
+          document.getElementById("navbar").style.width = "250px";
+          document.getElementById("main-container").style.marginLeft = "250px";
+          document.getElementById("main-container-image").style.marginLeft= "40%";
+          document.getElementById("container").style.marginLeft= "20px";
+          document.getElementById("container").style.width="600px";
+          document.getElementById("skill-set").style.marginLeft = "300px";
+          document.getElementById("1").style.width="175px";
+          document.getElementById("2").style.width="175px";
+          document.getElementById("3").style.width="175px";
+          document.getElementById("4").style.width="175px";
+          document.getElementById("5").style.width="175px";
+          document.getElementById("6").style.width="175px";
+          document.getElementById("7").style.width="175px";
+          document.getElementById("8").style.width="175px";
+          document.getElementById("js-logo").style.marginLeft="60px";
+          document.getElementById("php-logo").style.marginLeft="55px";
+          document.getElementById("angular-logo").style.marginLeft="20px";
+          document.getElementById("node-logo").style.marginLeft="60px";
+          document.getElementById("python-logo").style.marginLeft="60px";
+          document.getElementById("npm-logo").style.marginLeft="20px";
+          document.getElementById("html-logo").style.marginLeft="30px";
+          document.getElementById("saas-logo").style.marginLeft="20px";
+
+       
+        }
+        function closeNav()
+         {
+          document.getElementById("navbar").style.width = "0";
+          document.getElementById("main-container").style.marginLeft= "0";
+          document.getElementById("container").style.marginLeft= "100px";
+          document.getElementById("container").style.width= "800px";
+          document.getElementById("main-container-image").style.marginLeft= "55%";         
+          document.getElementById("skill-set").style.marginLeft="20px";
+          document.getElementById("1").style.width="250px";
+          document.getElementById("2").style.width="250px";
+          document.getElementById("3").style.width="250px";
+          document.getElementById("4").style.width="250px";
+          document.getElementById("5").style.width="250px";
+          document.getElementById("6").style.width="250px";
+          document.getElementById("7").style.width="250px";
+          document.getElementById("8").style.width="250px";
+          document.getElementById("js-logo").style.marginLeft="100px";
+          document.getElementById("php-logo").style.marginLeft="90px";
+          document.getElementById("angular-logo").style.marginLeft="50px";
+          document.getElementById("node-logo").style.marginLeft="100px";
+          document.getElementById("python-logo").style.marginLeft="100px";
+          document.getElementById("npm-logo").style.marginLeft="50px";
+          document.getElementById("html-logo").style.marginLeft="70px";
+          document.getElementById("saas-logo").style.marginLeft="70px";
+        }
+  </script>
+</body>
 </html>
