@@ -1,9 +1,35 @@
-*{
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    color: lime;
+body {
+  height: 100%;
 }
+
+main {
+  margin-top: 60px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.first-container {
+  background: green;
+  width: 800px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+.second-container {
+  background: red;
+  width: 800px;
+  height: 376px;
+  border-radius: 15px;
+}
+
+img.img {
+    margin-left: 750px;
+}
+
