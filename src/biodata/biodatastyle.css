@@ -1,113 +1,267 @@
-*{
+*
+{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
 }
-
-.header {
-  grid-area: header;
-  background-color: #f1f1f1;
-  padding: 70px;
-  font-size: 35px;
-  position: absolute;
-  /* border-bottom: dashed;
-  border-color: grey;
-  border-width: 5px; */
+body
+{
+    background-color: white;
 }
-
-/* hr{
-  border-bottom: dashed;
-  border-color: grey;
-  border-width: 2px; 
-} */
-
-hr {
-  border:none;
-  border-top:1px dashed rgb(180, 180, 180);
-  color:#fff;
-  background-color:#fff;
-  height:1px;
-  width:100%;
-  border-width: 4px;
+#navbar-name
+{
+    margin-left:  75px;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px;
 }
-.grid-container {
-  display: grid;
-  grid-template-areas: 
-    'header header header header header header' 
-    'left left left left right right' 
-} 
-
-.left,
-.right {
-  padding: 10px;
-  /* height: 600px;  */
-  /* Should be removed. Only for demon*/
+#image
+{
+    width: 130px;
+    border-radius: 100px;
+    background-color: white;
+    margin-left: 55px;
+   
 }
-
-.left {
-  grid-area: left;
-  display: grid;
+#image:hover
+{
+    transform: scale(1.1,1.1);
 }
-
-.right {
-  grid-area: right;
-  display: grid;
+#intro
+{
+    text-align: center;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: white;
 }
-
-@media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'right right right right right right' 
+#intro:hover
+{
+    transform: scale(1.05,1.05);
+}
+#twitter-logo,#linkedin-logo,#github-logo
+{
+    width: 25px;
+    padding: 25px;
+    
+}
+#aboutme-icon,#portfolio-icon,#blog-icon,#contact-icon,#more-icon
+{
+    width: 17px;
+    margin-right: 5px;
+    padding-bottom: 3px;
+    margin-left: 2px;
+}
+strong
+{
+    color: white;
+    font-size: 13px;
+}
+#me
+{
+    color: black;
+}
+#nav-content
+{
+    margin-left: 45px;
+}
+#navbar-button
+{
+      width: 17px;
+}
+#hireme-button
+{
+    color: white;
+    background-color: rgb(5, 141, 96);
+    border: none;
+    padding: 3px;
+    width: 100px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+#hireme-button:hover
+{
+    transform: scale(1.2,1.2);
+}
+#navbar {
+    z-index: 1;
+    background-color:rgb(6, 218, 147) ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    width: 200px;
+    height: 100%;
+    top:0;
+    left:0;
+    position: fixed;
+  } 
+  #navbar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
   }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: rgb(247, 243, 243);
+    padding: 10px 15px;
+    border: none;
+  }
+  .openbtn:hover {
+    background-color: rgb(248, 245, 245);
+    color: black;
+  }
+   #main-container
+  {
+     
+      width: auto;
+      height: 230px;
+      background-color: whitesmoke;
+      margin-top: -47px;
+  }
+  #main-container-image
+  {
+      width: 12em;
+      position: fixed;
+      top: 0;
+      margin-top: 15px;
+      margin-left: 40%;
+      border: 3px solid black;
+      background-color: rgb(248, 228, 248);
+  }
+  .container
+  {
+      width: 600px;
+      text-align: justify;
+      margin-left: 50px;
+      margin-top: -17px;
+      padding-top: 20px;
+
+  }
+  #port-button
+  {
+      padding: 8px;
+      color: white;
+      background-color: rgb(6, 218, 147);
+      border: 1px solid rgb(6, 218, 147);
+      margin: 10px;
+      margin-left: 2px;
+      border-radius: 3px;
+  }
+  #resume-button
+  {
+    padding: 8px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 3px;
+  }
+  #port-button:hover, #resume-button:hover
+  {
+      transform: scale(1.2,1.2);
+  }
+ #odd-at-grid
+ {
+     margin-top: 20px;
+     margin-left: 20px;
+ }
+ #green-line
+ {
+     color: rgb(6, 218, 147);
+     font-size: 30px;
+ }
+ #what-i-do
+ {
+     margin-top: -27px;
+     color: black;
+     margin-left: 20px;
+ }
+ a
+ {
+     color: rgb(6, 218, 147);
+ }
+ #content
+ {
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 18px; 
+ }
+ .skills
+ {
+     width: 200px;
+     margin: 20px;
+     height: 80px;
+     border: 2px solid rgb(6, 218, 147);
+     border-radius: 5px;
+       
+ }
+ .skills:hover
+ {
+     transform: scale(1.2,1.2);
+ }
+ #skill-set
+ {
+     margin-left: 250px;
+     margin-top: 17px;
+ }
+#php-logo
+{
+   display: block;
+    width: 65px;
+    float: left;
+    
 }
-
-.header {
-    position: relative;
+#npm-logo,#grunt-logo,#html-logo,#css-logo,#angular-logo,#React-logo,#vue-logo
+{
+    display: block;
+    width: 35px;
+    float: left;
+    margin: 15px;
 }
-
-#usercontent {
-    position: relative;
-    margin-left: 350px;
+#saas-logo,#less-logo,#node-logo,#js-logo,#python-logo
+{
+    display: block;
+    float: left;
+    width: 45px;
+    margin: 15px;
 }
-
-li {
-    font-size: 15px;
+#npm-logo,#grunt-logo,#gulp-logo
+{
+    display: block;
+    float: left;
+    width: 25px;
+    margin: 10px;
 }
-
-li{
-    display: inline;
-    font-weight: bold;
+#npm-logo
+{
+    margin-top: 25px;
+    width:35px;
 }
-
-#name {
-    position: absolute;
-    margin-left: -190px;
-    margin-top: -90px;
-    font-size: 40px;
-    font-weight: bolder;
+#grunt-logo
+{
+    margin-top: 20px;
 }
-
-#occupation {
-    position: absolute;
-     margin-left: -190px;
-    /* margin-bottom: 25px;  */
-    font-size: 16px;
-    color: grey;
-    font-weight: bold;
-    margin-top: -45px;
+#html-logo,#css-logo
+{
+    margin-left: 30px;
 }
-
-#first-row{
-  display: inline;
-  position: absolute;
-  text-align: left;
+#angular-logo,#React-logo,#vue-logo
+{
+    margin: 0px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
-
-
-#user {
-  position: absolute;
-  margin-top: -25px;
+#angular-logo
+{
+    margin-left: 15px;
+}
+#gulp-logo
+{
+    margin-top: 10px;
 }
