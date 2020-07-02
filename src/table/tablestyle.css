@@ -6,10 +6,11 @@
 
 body {
   text-align: center;
+  font-family: 'Poppins',sans-serif;
 }
 
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Poppins',sans-serif;
   border-collapse: collapse;
   width: 70%;
   margin-left: auto;
