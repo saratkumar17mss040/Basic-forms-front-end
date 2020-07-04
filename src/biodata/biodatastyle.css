@@ -1,267 +1,244 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-body
-{
-    background-color: white;
+body {
+  background-color: white;
 }
-#navbar-name
-{
-    margin-left:  75px;
-    color: white;
-    font-family: sans-serif;
-    padding: 5px;
+#navbar-name {
+  margin-left: 75px;
+  color: white;
+  font-family: sans-serif;
+  padding: 5px;
 }
-#image
-{
-    width: 130px;
-    border-radius: 100px;
-    background-color: white;
-    margin-left: 55px;
-   
+#image {
+  width: 130px;
+  border-radius: 100px;
+  background-color: white;
+  margin-left: 55px;
 }
-#image:hover
-{
-    transform: scale(1.1,1.1);
+#image:hover {
+  transform: scale(1.1, 1.1);
 }
-#intro
-{
-    text-align: center;
-    padding: 5px;
-    font-family: sans-serif;
-    font-size: 13px;
-    color: white;
+#intro {
+  text-align: center;
+  padding: 5px;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: white;
 }
-#intro:hover
-{
-    transform: scale(1.05,1.05);
+#intro:hover {
+  transform: scale(1.05, 1.05);
 }
-#twitter-logo,#linkedin-logo,#github-logo
-{
-    width: 25px;
-    padding: 25px;
-    
+#twitter-logo,
+#linkedin-logo,
+#github-logo {
+  width: 25px;
+  padding: 25px;
 }
-#aboutme-icon,#portfolio-icon,#blog-icon,#contact-icon,#more-icon
-{
-    width: 17px;
-    margin-right: 5px;
-    padding-bottom: 3px;
-    margin-left: 2px;
+#aboutme-icon,
+#portfolio-icon,
+#blog-icon,
+#contact-icon,
+#more-icon {
+  width: 17px;
+  margin-right: 5px;
+  padding-bottom: 3px;
+  margin-left: 2px;
 }
-strong
-{
-    color: white;
-    font-size: 13px;
+strong {
+  color: white;
+  font-size: 13px;
 }
-#me
-{
-    color: black;
+#me {
+  color: black;
 }
-#nav-content
-{
-    margin-left: 45px;
+#nav-content {
+  margin-left: 45px;
 }
-#navbar-button
-{
-      width: 17px;
+#navbar-button {
+  width: 17px;
 }
-#hireme-button
-{
-    color: white;
-    background-color: rgb(5, 141, 96);
-    border: none;
-    padding: 3px;
-    width: 100px;
-    height: 40px;
-    margin-left: 20px;
-    border-radius: 5px;
+#hireme-button {
+  color: white;
+  background-color: rgb(5, 141, 96);
+  border: none;
+  padding: 3px;
+  width: 100px;
+  height: 40px;
+  margin-left: 20px;
+  border-radius: 5px;
 }
-#hireme-button:hover
-{
-    transform: scale(1.2,1.2);
+#hireme-button:hover {
+  transform: scale(1.2, 1.2);
 }
 #navbar {
-    z-index: 1;
-    background-color:rgb(6, 218, 147) ;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-    width: 200px;
-    height: 100%;
-    top:0;
-    left:0;
-    position: fixed;
-  } 
-  #navbar .closebtn {
-    position: absolute;
-    top: 0;
-    right: 15px;
-    font-size: 36px;
-    margin-left: 50px;
-    color: black;
-  }
-  
-  .openbtn {
-    font-size: 20px;
-    cursor: pointer;
-    background-color: #111;
-    color: rgb(247, 243, 243);
-    padding: 10px 15px;
-    border: none;
-  }
-  .openbtn:hover {
-    background-color: rgb(248, 245, 245);
-    color: black;
-  }
-   #main-container
-  {
-     
-      width: auto;
-      height: 230px;
-      background-color: whitesmoke;
-      margin-top: -47px;
-  }
-  #main-container-image
-  {
-      width: 12em;
-      position: fixed;
-      top: 0;
-      margin-top: 15px;
-      margin-left: 40%;
-      border: 3px solid black;
-      background-color: rgb(248, 228, 248);
-  }
-  .container
-  {
-      width: 600px;
-      text-align: justify;
-      margin-left: 50px;
-      margin-top: -17px;
-      padding-top: 20px;
+  z-index: 1;
+  background-color: rgb(6, 218, 147);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  width: 200px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+#navbar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: black;
+}
 
-  }
-  #port-button
-  {
-      padding: 8px;
-      color: white;
-      background-color: rgb(6, 218, 147);
-      border: 1px solid rgb(6, 218, 147);
-      margin: 10px;
-      margin-left: 2px;
-      border-radius: 3px;
-  }
-  #resume-button
-  {
-    padding: 8px;
-    color: white;
-    background-color: black;
-    border: 1px solid black;
-    margin: 5px;
-    border-radius: 3px;
-  }
-  #port-button:hover, #resume-button:hover
-  {
-      transform: scale(1.2,1.2);
-  }
- #odd-at-grid
- {
-     margin-top: 20px;
-     margin-left: 20px;
- }
- #green-line
- {
-     color: rgb(6, 218, 147);
-     font-size: 30px;
- }
- #what-i-do
- {
-     margin-top: -27px;
-     color: black;
-     margin-left: 20px;
- }
- a
- {
-     color: rgb(6, 218, 147);
- }
- #content
- {
-    margin-left: 2px;
-    margin-top: 5px;
-    font-size: 18px; 
- }
- .skills
- {
-     width: 200px;
-     margin: 20px;
-     height: 80px;
-     border: 2px solid rgb(6, 218, 147);
-     border-radius: 5px;
-       
- }
- .skills:hover
- {
-     transform: scale(1.2,1.2);
- }
- #skill-set
- {
-     margin-left: 250px;
-     margin-top: 17px;
- }
-#php-logo
-{
-   display: block;
-    width: 65px;
-    float: left;
-    
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: rgb(247, 243, 243);
+  padding: 10px 15px;
+  border: none;
 }
-#npm-logo,#grunt-logo,#html-logo,#css-logo,#angular-logo,#React-logo,#vue-logo
-{
-    display: block;
-    width: 35px;
-    float: left;
-    margin: 15px;
+.openbtn:hover {
+  background-color: rgb(248, 245, 245);
+  color: black;
 }
-#saas-logo,#less-logo,#node-logo,#js-logo,#python-logo
-{
-    display: block;
-    float: left;
-    width: 45px;
-    margin: 15px;
+#main-container {
+  width: auto;
+  height: 230px;
+  background-color: whitesmoke;
+  margin-top: -47px;
 }
-#npm-logo,#grunt-logo,#gulp-logo
-{
-    display: block;
-    float: left;
-    width: 25px;
-    margin: 10px;
+#main-container-image {
+  width: 12em;
+  position: fixed;
+  top: 0;
+  margin-top: 15px;
+  margin-left: 40%;
+  border: 3px solid black;
+  background-color: rgb(248, 228, 248);
 }
-#npm-logo
-{
-    margin-top: 25px;
-    width:35px;
+.container {
+  width: 600px;
+  text-align: justify;
+  margin-left: 50px;
+  margin-top: -17px;
+  padding-top: 20px;
 }
-#grunt-logo
-{
-    margin-top: 20px;
+#port-button {
+  padding: 8px;
+  color: white;
+  background-color: rgb(6, 218, 147);
+  border: 1px solid rgb(6, 218, 147);
+  margin: 10px;
+  margin-left: 2px;
+  border-radius: 3px;
 }
-#html-logo,#css-logo
-{
-    margin-left: 30px;
+#resume-button {
+  padding: 8px;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  margin: 5px;
+  border-radius: 3px;
 }
-#angular-logo,#React-logo,#vue-logo
-{
-    margin: 0px;
-    margin-left: 10px;
-    margin-right: 5px;
+#port-button:hover,
+#resume-button:hover {
+  transform: scale(1.2, 1.2);
 }
-#angular-logo
-{
-    margin-left: 15px;
+#odd-at-grid {
+  margin-top: 20px;
+  margin-left: 20px;
 }
-#gulp-logo
-{
-    margin-top: 10px;
+#green-line {
+  color: rgb(6, 218, 147);
+  font-size: 30px;
+}
+#what-i-do {
+  margin-top: -27px;
+  color: black;
+  margin-left: 20px;
+}
+a {
+  color: rgb(6, 218, 147);
+}
+#content {
+  margin-left: 2px;
+  margin-top: 5px;
+  font-size: 18px;
+}
+.skills {
+  width: 200px;
+  margin: 20px;
+  height: 80px;
+  border: 2px solid rgb(6, 218, 147);
+  border-radius: 5px;
+}
+.skills:hover {
+  transform: scale(1.2, 1.2);
+}
+#skill-set {
+  margin-left: 250px;
+  margin-top: 17px;
+}
+#php-logo {
+  display: block;
+  width: 65px;
+  float: left;
+}
+#npm-logo,
+#grunt-logo,
+#html-logo,
+#css-logo,
+#angular-logo,
+#React-logo,
+#vue-logo {
+  display: block;
+  width: 35px;
+  float: left;
+  margin: 15px;
+}
+#saas-logo,
+#less-logo,
+#node-logo,
+#js-logo,
+#python-logo {
+  display: block;
+  float: left;
+  width: 45px;
+  margin: 15px;
+}
+#npm-logo,
+#grunt-logo,
+#gulp-logo {
+  display: block;
+  float: left;
+  width: 25px;
+  margin: 10px;
+}
+#npm-logo {
+  margin-top: 25px;
+  width: 35px;
+}
+#grunt-logo {
+  margin-top: 20px;
+}
+#html-logo,
+#css-logo {
+  margin-left: 30px;
+}
+#angular-logo,
+#React-logo,
+#vue-logo {
+  margin: 0px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+#angular-logo {
+  margin-left: 15px;
+}
+#gulp-logo {
+  margin-top: 10px;
 }

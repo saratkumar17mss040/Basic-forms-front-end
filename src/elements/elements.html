@@ -9,60 +9,30 @@
   <body>
     <main>
       <div class="first-container">
-        <img
-          src="/resources/tick.png"
-          alt="tick_icon"
-          width="16px"
-          height="16px"
-        />
-        <span>Welcome to Shutterstock!</span> <br />
+        <div class="welcome-text">Welcome to Shutterstock!</div> <br /> <br>
         <span>
-          <img
-            src="/resources/tick.png"
-            alt="tick_icon"
-            width="16px"
-            height="16px"
-          />
-          We have images for every project, all covered by worry free licensing
-        </span>
+          <img id="first-close-icon" src="/resources/close.png" width="15px" height="15px">
+          <div class="text first-text">
+          <input type="checkbox" name="points" id="points" checked disabled> We have images for every project, all covered by worry free licensing
+          </div>
         <br />
-        <span>
-          <img
-            src="/resources/tick.png"
-            alt="tick_icon"
-            width="16px"
-            height="16px"
-          />
-          Download with confidence
-        </p>
+        <div class="text second-text">
+           <input type="checkbox" name="points" id="points" checked disabled>
+          Download with confidence</span>
+        </div>
         <button class="btn btn1">
           Find your plan
         </button>
-        <img
-          class="img img1"
-          src="/resources/close.png"
-          alt="close_icon"
-          width="20px"
-          height="20px"
-        />
       </div>
       <div class="second-container">
-        <p>Search by image</p>
-        <img
-          class="img"
-          src="/resources/close.png"
-          alt="close_icon"
-          width="20px"
-          height="20px"
-        />
+         <img id="second-close-icon" src="/resources/close.png" width="15px" height="15px">
+        <p class="search-text">Search by image</p>
         <div class="inner-dashed-box">
-          <p>Drag and drop image here</p>
-          <p>or</p>
-          <button class="btn btn2">
-            Find your plan
-          </button>
+          <p class="inner-drop-text">Drag and drop image here</p>
+          <p class="or-text">or</p>
+          <button class="btn btn2">Find your plan</button>
         </div>
-        <p>
+        <p class="last-text">
           (We only support JPG and PNG images under 5MB and no larger than
           4000px on either side at this time.)
         </p>
