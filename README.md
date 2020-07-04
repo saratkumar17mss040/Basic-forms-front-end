@@ -15,5 +15,5 @@ Forms using HTML5 & CSS3
  * Registration page design: [click here](./resources/registration.jpg)
  * Application page design: [click here](./resources/application_form.jpg)
  * Bio-data page design: [click here](./resources/bio-data.jpg)
- * Elements page design: [design link](https:/uidesigndaily.com/posts/sketch-elements-file-upload-card-search-day-738)
+ * Elements page design: [design link](https://uidesigndaily.com/posts/sketch-elements-file-upload-card-search-day-738)
  
